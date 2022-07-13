@@ -5,7 +5,7 @@ const ConsoleLogPage = () => {
   return (
     <Pressable
       onPress={() => {
-       throw Error("test");
+        console.log('pressed');
       }}
       style={({ pressed }) => ({
         backgroundColor: pressed ? 'lightskyblue' : 'white'
